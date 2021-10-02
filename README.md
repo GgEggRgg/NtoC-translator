@@ -1,6 +1,6 @@
 # NtoC-translator-
 
-3가지 명령으로만 구성된 N이라는 가상의 언어가 있다고 가정하고 이를 C언어로 변환시키는 번역기입니다.
+3가지 명령으로만 구성된 N이라는 가상의 언어가 있다고 가정하고 이를 C언어로 변환시키는 번역기입니다.    
 아래는 해당 3가지 명령어 입니다.
   1. cat filename : 해당 filename의 내용을 화면에 출력한다.
   2. cat filename1 > filename2 : filename1의 내용을 filename2로 카피한다.
