@@ -1,0 +1,8 @@
+echo "File : a.txt"
+cat a.txt
+echo "----- end of a.txt"
+echo "Copy a.txt to b.txt"
+cat a.txt > b.txt
+echo "File: b.txt"
+cat b.txt
+echo "----- end of b.txt"
