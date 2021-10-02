@@ -8,41 +8,41 @@
 
 ***
 
-N언어 파일의 내용
-  echo "File : a.txt"
-  cat a.txt
-  echo "----- end of a.txt"
-  echo "Copy a.txt to b.txt"
-  cat a.txt > b.txt
-  echo "File: b.txt"
-  cat b.txt
-  echo "----- end of b.txt"
-
+N언어 파일의 내용    
+  echo "File : a.txt"    
+  cat a.txt    
+  echo "----- end of a.txt"    
+  echo "Copy a.txt to b.txt"    
+  cat a.txt > b.txt    
+  echo "File: b.txt"    
+  cat b.txt    
+  echo "----- end of b.txt"    
+    
 ***
-
-C언어 파일의 내용
-  #include <stdio.h>
-  int main(){
-  FILE *f1, *f2; char c;
-
-  printf("File : a.txt")
-  f1 = open("a.txt", "r");
-  while((c = getc(f1)) != EOF)
-    printf("%c", c);
-  fclose(f1);
-  printf("----- end of a.txt")
-  printf("Copy a.txt to b.txt")
-  f1 = open("a.txt", "r");
-  f2 = open("b.txt", "w");
-  while((c = getc(f1)) != EOF)
-    fputc((int)c,f2);
-  fclose(f2);
-  fclose(f1);
-  printf("File: b.txt")
-  f1 = open("b.txt", "r");
-  while((c = getc(f1)) != EOF)
-    printf("%c", c);
-  fclose(f1);
-  printf("----- end of b.txt)
-  return 0;
-  }
+    
+C언어 파일의 내용    
+  #include <stdio.h>    
+  int main(){    
+  FILE *f1, *f2; char c;    
+    
+  printf("File : a.txt")    
+  f1 = open("a.txt", "r");    
+  while((c = getc(f1)) != EOF)    
+    printf("%c", c);    
+  fclose(f1);    
+  printf("----- end of a.txt")    
+  printf("Copy a.txt to b.txt")    
+  f1 = open("a.txt", "r");    
+  f2 = open("b.txt", "w");    
+  while((c = getc(f1)) != EOF)    
+    fputc((int)c,f2);    
+  fclose(f2);    
+  fclose(f1);    
+  printf("File: b.txt")    
+  f1 = open("b.txt", "r");    
+  while((c = getc(f1)) != EOF)    
+    printf("%c", c);    
+  fclose(f1);    
+  printf("----- end of b.txt)    
+  return 0;    
+  }    
