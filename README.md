@@ -11,7 +11,6 @@
 N언어 파일의 내용
 <pre>
 <code>
-'''
   echo "File : a.txt"    
   cat a.txt    
   echo "----- end of a.txt"    
