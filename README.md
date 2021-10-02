@@ -8,7 +8,10 @@
 
 ***
 
-N언어 파일의 내용    
+N언어 파일의 내용
+<pre>
+<code>
+'''
   echo "File : a.txt"    
   cat a.txt    
   echo "----- end of a.txt"    
@@ -17,10 +20,14 @@ N언어 파일의 내용
   echo "File: b.txt"    
   cat b.txt    
   echo "----- end of b.txt"    
+</code>
+</pre>
     
 ***
     
 C언어 파일의 내용    
+<pre>
+<code>
   #include <stdio.h>    
   int main(){    
   FILE *f1, *f2; char c;    
@@ -46,3 +53,5 @@ C언어 파일의 내용
   printf("----- end of b.txt)    
   return 0;    
   }    
+  </code>
+  </pre>
